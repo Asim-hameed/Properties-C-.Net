@@ -110,6 +110,7 @@
         }
 
     }
+    //Static Ends here
     class Program
     {
         static void Main(string[] args)
@@ -126,11 +127,14 @@
             //Console.WriteLine("Total marks are {0}", student.subTotal);
 
         
+            //Static properties Start
+
             univeristy univeristy = new univeristy();
             univeristy.universityName = "FAST";
             univeristy.departmentName = "CS";
             Console.WriteLine("University name is {0}", univeristy.universityName);
             Console.WriteLine("Department name is {0}", univeristy.departmentName);
+            //Static Ends here
         }
     }
 }
